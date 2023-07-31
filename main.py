@@ -1,7 +1,7 @@
 
 import pymongo
 
-database_name = 'temp1'
+database_name = 'slangPanameno'
 
 client = pymongo.MongoClient('mongodb://localhost:27017')
 
@@ -17,9 +17,6 @@ if __name__ == '__main__':
             "age": 23
         }
     )
-
-
-
 
 
 
